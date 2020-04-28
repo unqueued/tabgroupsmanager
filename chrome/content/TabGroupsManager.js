@@ -5419,7 +5419,7 @@ TabGroupsManager.OverrideMethod=function(){
   try
   {
     var toolbox=document.getElementById("navigator-toolbox");
-    toolbox.watch("customizing",this.toolboxCustomizeChange);
+    // toolbox.watch("customizing",this.toolboxCustomizeChange);
     if(!("tabBarWidthChange" in window)&&!("TabmixTabbar" in window)){
       var tabBar=TabGroupsManager.utils.getElementByIdAndAnonids("content","tabcontainer","arrowscrollbox");
       if(tabBar){
